@@ -4,5 +4,5 @@ build/
 *.log
 Thumbs.db
 .DS_Store
-.dockerignore
 backend/Gestion de reportes.sqlite
+backend/backups/
