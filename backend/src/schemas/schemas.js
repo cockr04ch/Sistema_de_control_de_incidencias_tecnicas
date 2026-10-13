@@ -128,8 +128,7 @@ Specialization.belongsToMany(User, { through: SpecializationUsers, foreignKey: '
 export async function initDatabase() {
   try {
     await sequelize.query('PRAGMA foreign_keys = OFF;');
-    // alter: true creará automáticamente el campo 'nombre windows' en la tabla Report
-    await sequelize.sync({ alter: true });
+    await sequelize.sync();
   } catch (e) {
     console.error('Error sincronizando:', e);
   } finally {
