@@ -1,6 +1,8 @@
 {
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.17",
-    "tailwindcss": "^4.1.17"
-  }
+  "name": "incidencias",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
 }

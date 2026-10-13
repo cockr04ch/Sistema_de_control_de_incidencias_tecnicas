@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "bun --watch server.js"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +22,6 @@
     "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.2",
     "mysql": "^2.18.1",
-    "nodemon": "^3.1.9",
     "sequelize": "^6.37.7",
     "sqlite3": "^5.1.6"
   },
